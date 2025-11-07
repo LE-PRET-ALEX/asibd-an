@@ -1,0 +1,91 @@
+/*div > p{
+      font-size: 18px;
+       color: #3CB31;
+      background-color: #556B2F;
+   }*/
+
+ /*h1 + p{                                                                                                                          
+      font-size: 20px;
+      font-weight: bold;
+     color: darkgrey;
+  }*/
+  
+ /*h1~ p{
+       font-size: 20px;
+       font-weight: bold;
+       color: darkgrey;
+   }
+  
+   input, button {
+        padding: 10px;
+    }
+ 
+ input{
+     background-color: lightblue;
+  }
+
+  a:hover{
+  color: red;
+  }
+ 
+   a:link{
+      color:orange;
+     }
+    a:visited{
+      color:purple;
+    }     
+  
+   input:focus{
+   color: blue;
+   background-color: lightgrey;
+   }
+  
+   button:active{
+      transform: scale(0.95);
+   }
+  
+  li:first-child{
+      color:#3CB31 ;
+     font-weight: bold;
+   }
+  
+   li:last-child{
+      color:#5B2F ;
+      text-decoration:underline ;
+    text-decoration:underline ;
+  }
+  
+   input:required {
+    border-left: 4px solid red;
+  }
+  
+  input:valid {
+    border-color: green;
+  }
+  
+  input:invalid {
+    border-color: red;
+  }
+  
+  p:not(.hightlight){
+    color: lightgreen;
+  }
+  
+  
+  p::before{
+      content:">> ";
+      color: orange;
+      background-color: blue;
+  }
+ 
+  p::after{
+      content:"<<";   
+  }
+*/
+  input[required]{
+    border: 2px solid red;
+  }
+
+  input[type="email"]{
+    background-color: lightgrey;
+  }
