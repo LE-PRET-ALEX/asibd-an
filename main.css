@@ -30,7 +30,7 @@ ul {
   text-decoration: none;
   padding: 15px 25px;
   border-bottom: 3px solid #313b44;
-  border-radius: 12px;
+  border-radius: 15px;
 }
 
 .list-items a:hover {
@@ -45,20 +45,23 @@ ul {
 .banner {
   width: 100%;
   height: 200px;
-  background-color: #313b44;
-  color: #d2f2dc;
-  border-radius: 12px;
-  padding: 35px 35px;
+  background-image: url(./resourses/images/new-images/img2.jpg);
+  padding: 20px;
+  border-radius: 40px 20px;
+  margin-bottom: 40px;
+  /*color: rgb(239, 234, 234);*/
 }
 
 .banner h1, h3{
-  color: #d2f2dc;
+  color: #313b44;
+  padding: 10px;
 }
 
 .main-container{
   font-size: 16px;
   padding: 20px;
   margin: 20px 0px;
+  background-color: rgb(255, 0, 0);
 }
 
 .contact-highlight{
