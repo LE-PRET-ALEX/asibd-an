@@ -45,15 +45,18 @@ ul {
 .banner {
   width: 100%;
   height: 200px;
-  background-image: url(./resourses/images/new-images/img2.jpg);
+  /*background-image: url("./resources/images/new-images/img2.jpg");*/
+  background-image: linear-gradient(120deg, rgb(210 11 240/100%) 35%, rgb(51 56 57/100%) 88%);
   padding: 20px;
+  border: 8px solid red;
   border-radius: 40px 20px;
   margin-bottom: 40px;
-  /*color: rgb(239, 234, 234);*/
+  color: rgb(239, 234, 234);
+  background-clip: border-box;
 }
 
 .banner h1, h3{
-  color: #313b44;
+  color: rgb(48, 222, 135);
   padding: 10px;
 }
 
@@ -61,7 +64,11 @@ ul {
   font-size: 16px;
   padding: 20px;
   margin: 20px 0px;
-  background-color: rgb(255, 0, 0);
+  background-image: url("./resources/images/new-images/icon1.png");
+  background-repeat: no-repeat;
+  /*background-position: center center;*/
+  /*background-size: contain;*/
+  background-attachment: fixed;
 }
 
 .contact-highlight{
@@ -79,13 +86,3 @@ ul {
   display: inline-block;
 }
 
-.banner{
-  width: 100%;
-  height: 200px;
-  background-color: lightgrey;
-  /*padding-top: 15px;
-  padding-bottom: 40px;
-  padding-right: 10px;
-  padding-left: 5px;*/
-  padding: 15px 10px 40px 5px;
-}
