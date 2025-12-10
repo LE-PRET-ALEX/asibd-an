@@ -1,176 +1,59 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>Curso de ASIBD-EICM_GDC</title>
-		<meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="./main.css"
-	</head>
-	<!--Divisao do bloco, responsavel por representar os coneudos no navegador-->
 
-	<body>
-		<header>
-			<nav>
+<head>
+	<title>Curso de ASIBD-EICM_GDC</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width" initial-scale="1.0">
+	<link rel="stylesheet" type="text/css" href="styles/base.css">
+	<link rel="stylesheet" type="text/css" href="styles/reset.css">
+	<script src="https://kit.fontawesome.com/4d5733abbf.js" crossorigin="anonymous"></script>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<!--Divisao do bloco, responsavel por representar os coneudos no navegador-->
+
+<body>
+	<div class="grid-container">	
+		<!--Estrutura geral do cabecalho-->
+		<header class="header">
+			<nav class="navbar">
 				<div>
-					<img width="120" alt="Logo do curso" src="./resources/images/logo.png" />
+					<a href="#"><img class="logo" width="88.5" alt="Logo do curso" src="./resources/images/logo.png" /></a>
 				</div>
 
-				<div>
-					<ul class="list-items">
-						<li><a href="./">Home</a></li>
-						<li><a href="./contactos.html">Contatos</a></li>
-						<li><a href="./modulos.html">Modulos</a></li>
-						<li><a href="./dinamicas.html">Dinamica</a></li>
-            <li><a href="./professores.html">Professores</a></li>
+				<div class="menu">
+					<ul>
+						<li class="link-holder"><a href="./"><i class="fa-solid fa-house"></i>Home</a></li>
+						<li class="link-holder"><a href="./contactos.html"><i class="fa-solid fa-mobile"></i>Contatos</a></li>
+						<li class="link-holder"><a href="./modulos.html"><i class="fa-solid fa-book"></i>Modulos</a></li>
+						<li class="link-holder"><a href="./dinamicas.html"><i class="fa-solid fa-brush"></i>Dinamica</a></li>
+						<li class="link-holder"><a href="./professores.html"><i class="fa-solid fa-chalkboard-user"></i>Professores</a></li>
 					</ul>
 				</div>
 			</nav>
 		</header>
 
-		<main class="main-content" id="content">
-			<section class="main-container">
-        <div class="banner">
-          <h1>Seja muito bem-vindo ao curso de Administracao de Sistemas Informaticos e Base de Dados</h1>
-				  <h3>Curso pertencente a area das TICs</h3>
-        </div>
-        <hr/>
-        <div>
-				  <p title="Descricao Geral">O curso de Administração de Sistemas Informáticos e Bases de Dados (ASIBD) forma profissionais capazes de conceber, desenvolver e gerir sistemas informáticos complexos, combinando uma forte base em matemática, eletrónica e programação com competências práticas em software, redes e segurança. Ao longo da formação, os estudantes aprendem a analisar problemas reais e a criar soluções tecnológicas inovadoras, desde aplicações móveis e sistemas embebidos até infraestruturas de rede e plataformas web.</p>
-				  <p>Além da componente técnica, o curso promove o pensamento crítico, o trabalho em equipa e a capacidade de adaptação a novas tecnologias, preparando os futuros engenheiros para enfrentar os desafios de um setor em constante evolução. A formação inclui projetos práticos, estágio profissional e contacto direto com ferramentas e metodologias utilizadas na indústria.</p>
-				  <p>No final, os diplomados estão aptos a atuar em diversas áreas da informática, como desenvolvimento de software, cibersegurança, inteligência artificial, sistemas distribuídos ou administração de redes. Trata-se de um curso exigente, mas recompensador, ideal para quem tem curiosidade, gosto pela tecnologia e vontade de criar soluções que impactem positivamente o mundo digital.</p>
-        </div>
-        <div>
-          <img usemap="#store_link" width="800" alt="Banner do curso" src="./resources/images/banner_01.jpeg"/>
-          <map name="store_link">
-            <area shape="rect" target="_blank" alt="Link para a referencia do oculos" title="Oculos Digital" href="https://www.amazon.com" coords="499,47,627,105">
-            <area shape="rect" target="_blank" alt="Link para dashboard" title="Dashboard" href="https://www.google.com" coords="302,76,585,387">
-          </map>
-        </div>
-      </section>
-      <section>
-        <div>
-          <p>AHdoiuuo asofhyefh aofyeg hohafydgfey ousgoafhye hsyuoagfe pspufyeity diusoagfyea suagif aofyegsjdfgya egodsg.</p>
-          <p>dhgeow UFHEY FUUISDPH ygfyb  fei u0ushue0gh unhgeusi jfaopop i hauiof fepu yijdoisphfaj wupeo ij eoi,j hfueup dosife uipsdf</p>
-          <p>kjagi yugsyuoa he gfyusbdkjg foueg jvncs, uf sgy e. iuhfs gygeo hgydsg jhuyifdstui.</p>
-        </div>
-        <div class="Video">
-          <video width="640" height="360" autoplay muted loop controls>
-            <source src="./resources/videos/video_principal.mp4" type="video/mp4">
-          </video>
-        </div>
-      </section>
-      <!--  Seccao dos contactos  -->
-      <section class="contact-highlight">
-        <div>
-          <div><h3>Entre em contacto</h3></div>
-          <div>
-            <!--  Informacoes de contactos  -->
-            <div>
-              <dl>
-                <dt>asibd.eicm@gmail.com</dt>
-                <dd>Email principal do curso</dd>
-                <dt>2324543</dt>
-                <dd>Telefone oficial do curso</dd>
-              </dl>
-            </div>
+		<header class="banner">
+			<div class="main-banner">
+				<h1>Seja bem vindo ao sitio web do curso de ASIBD</h1>
+				<p>Administracao de Sistemas Informaticos e de Base de Dados</p>
+			</div>
+		</header>
 
-            <!--  Formulario de contacto  -->
-            <div>
-              <form action="#" method="POST">
-                <div>
-                  <!--  Caixa para nome -->
-                  <label for="name">Nome: </label> <br/>
-                  <input type="text" id="name" name="name" placeholder="Nome do utilizador" required> <br/> <br/>
-               </div>
-               
-               <div>
-                 <!-- Caixa para email  -->
-                  <label for="email">Email: </label> <br/>
-                  <input type="text" id="email" name="email" placeholder="exemplo@email.com" required> <br/> <br/>
-                </div>
-                
-                <div>
-                  <!--  Caixa para Data de Nascimento -->
-                   <label for="birth">Data de Nascimento: </label> <br/>
-                   <input type="date" id="birth" name="birth" placeholder="DD/MM/AAAA" required> <br/> <br/>  
-                </div>
-
-                <div>
-                  <!--  Escolha de genero -->
-                  <p>Genero:</p>
-                   <input type="radio" id="male" name="gender" value="M">
-                   <label for="male">Masculino</label> <br/>
-                   <input type="radio" id="female" name="gender" value="F">
-                   <label for="female">Feminino</label> <br/>                     
-                </div>
-              </form>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section>
-        <div class="FAQ">
-          <h2>Perguntas frequentes</h2>
-          <h4>1. Bla bla bla bla</h4>
-          <p>adiun  ohailifhw  roh auahru hwuo uuiwah heuwahuihoawuwh uyehg shu  hfyushfui.</p>
-          <h4>2. Bla bla bla bla bla bla</h4>
-          <p>hoauiohg up0ywhue pou eh urhgao hia phurup aufnvpur hruph a.</p>
-        </div>
-      </section>
+		<main class="main">
+			<!--Conteudo principal da pagina-->
+			conteudo
 		</main>
-    <hr/>
-    <footer id="page-footer">
-      <div>
-        <div>
-          <a href="tel:+2389849991"><img src="./resources/images/phone.png">Telefone</a>
-          <a href="mailto:nascimentoalexcv@gmail.com"><img src="./resources/images/mail_img.png">Email</a>
-        </div>
-        <section>
-          <div>
-            <div>
-              <h4>Links uteis</h4>
-            </div>
-            <div>
-              <ul>
-                <li><a href="https://www.nosi.cv/">NOSi</a></li>
-                <li><a href="#">Pro Empresa</a></li>
-                <li><a href="./resources/docs/plano_formativo.pdf" download="plano_curso.pdf">Plano formativo</a></li>
-                <li><a href="https://minedu.gov.cv/">Ministerio de Educacao</a></li>
-                <li><a href="#">Porton di Nos Ilha</a></li>
-              </ul>
-            </div>
-          </div>
-          <div>
-            <div>
-              <h4>Redes Sociais</h4>
-            </div>
-            <div>
-              <ul>
-                <li><a href="#"><img  src="./resources/images/twitter_logo.png" width="24">Twitter</a></li>
-                <li><a href="#"><img  src="./resources/images/instagram_logo.png">Instagram</a></li>
-                <li><a href="#"><img  src="./resources/images/facebook_logo.png">Facebook</a></li>
-                <li><a href="#"><img  src="./resources/images/youtube_logo.png">YouTube</a></li>
-                <li><a href="#"><img  src="./resources/images/linkedin_logo.png">LinkedIn</a><li>
-              </ul>
-            </div>
-          </div>
-          <div>
-            <div>
-              <h4>Termos de Privacidade e Seguranca</h4>
-            </div>
-            <div>
-              <ul type="circle">
-                <li><a href="#">Termos de Privacidade</a></li>
-                <li><a href="#">Termos de Seguranca</a></li>
-              </ul>
-            </div>
-          </div>
-        </section>
-    <hr/>
-        <div>
-          <span>Todos os direitos reservados</span>
-        </div>
-      </div>
-    </footer>
-	</body>
+
+		<footer class="footer">
+			<!--Rodape da pagina-->
+			rodape
+		</footer>
+
+		</div>
+
+</body>
 
 </html>
