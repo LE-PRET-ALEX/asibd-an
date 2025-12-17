@@ -162,3 +162,52 @@
 .outter_course_description p {
     text-align: justify;
 }
+
+.area_description {
+    display: flex;
+    margin: 20px;
+}
+
+.area_image {
+    border: 2.8px solid #e3e3e4;
+    border-radius: 10px;
+    padding: 5.3px;
+    margin: 10px;
+    box-shadow: 3px 3px 8px #e7e7e7, 1.2px 1.2px 8px #e6e5e5;
+}
+
+.area_image img {
+    border-radius: 5px;
+}
+
+.contacts_and_forms {
+    display: flex;
+    margin-left: 108.5px;
+    margin-right: 90px;
+}
+
+.description_paragraph p {
+    text-align: justify;
+    color: #676769;
+    line-height: 1.6em;
+    font-size: 14px;
+}
+
+.contacts {
+    position: relative;
+    width: 40%;
+}
+
+.contacts h3 {
+    color: black;
+    font-family: 'montserrat', Arial, sans-serif;
+}
+
+.contacts ul li {
+    padding: 6.5px;
+}
+
+.contacts ul li a {
+    text-decoration: none;
+    color: black;
+}
