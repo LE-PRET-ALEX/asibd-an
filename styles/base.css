@@ -152,13 +152,6 @@
 
 }
 
-/*.outter_course_description h1{
-    text-decoration: underline;
-    text-decoration-thickness: 20%;
-    text-underline-offset: 40%;
-
-}*/
-
 .outter_course_description p {
     text-align: justify;
 }
@@ -180,12 +173,6 @@
     border-radius: 5px;
 }
 
-.contacts_and_forms {
-    display: flex;
-    margin-left: 108.5px;
-    margin-right: 90px;
-}
-
 .description_paragraph p {
     text-align: justify;
     color: #676769;
@@ -193,21 +180,57 @@
     font-size: 14px;
 }
 
-.contacts {
-    position: relative;
-    width: 40%;
+.contacts_and_forms {
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
 }
 
-.contacts h3 {
-    color: black;
-    font-family: 'montserrat', Arial, sans-serif;
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
 }
 
-.contacts ul li {
-    padding: 6.5px;
+.outter_contact_area {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 120px;
 }
 
-.contacts ul li a {
-    text-decoration: none;
-    color: black;
+.contacts_list {
+    margin: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 1.15em;
+    color: #5f5f5f;
+}
+
+input, select, textarea{
+    padding: 10px;
+    margin-top: 6px;
+    border-radius: 7.2px;
+    border: 1px solid #929292;
+}
+
+input:hover, textarea:hover{
+    padding: 10px;
+    margin-top: 6px;
+    border-radius: 7.2px;
+    border: 1.45px solid #050505;
+}
+
+form div {
+    display: flex;
+    flex-direction: column;
 }

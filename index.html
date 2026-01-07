@@ -59,21 +59,44 @@
 				</div>
 			</section>
 
-			<section class="contacts_and_forms">
-				<div class="contacts">
-					<h3>Lista de contactos</h3>
-					<ul type="none" class="contacts_list">
-						<li><a><i class="fa-solid fa-phone"></i><a href="#">232 13 13</a></a></li>
-						<li><a><i class="fa-solid fa-envelope"></i><a href="#">eicm_sv@cvtelecom.cv</a></a></li>
-						<li><a href=""><i class="fa-solid fa-location-dot"></i><a href="">Escola Comercial e Industrial do Mindelo, Av. Dr. Alberto Leite 5, Mindelo</a></a></li>
-						<li></li>
-					</ul>
+			<section class="outter_contact_area">
+				<div class="description_title">
+					<h1>Contactos do curso</h1>
 				</div>
 
-				<div class="form">
-					<form action="">
+				<div class="contacts_and_forms">
+					<div class="contacts_list">
+						<ul type="none">
+							<li><i class="fa-solid fa-phone"></i><span>+238 232 13 13</span></li>
+							<li><i class="fa-solid fa-message"></i><span>asibd.eicm@gmail.com</span></li>
+							<li><i class="fa-solid fa-globe"></i><span>https://asibd.eicmgdc.edu.cv</span></li>
+							<li><i class="fa-solid fa-location-arrow"></i><span>Cabo Verde - Sao Vicente - Mindelo - Avenida Dr Alberto Leite 5</span></li>
+						</ul>
+					</div>
 
+					<div class="forms_area">
+					<form class="form" action="contacts.php">
+						<div>
+							<label for="name">Nome:</label>
+							<input required type="text" name="name" id="name" placeholder="Nome">
+						</div>
+						<div>
+							<label for="email">Email:</label>
+							<input required type="email" name="email" id="email" placeholder="Email">
+						</div>
+						<div>
+							<label for="subject">Assunto:</label>
+							<input type="text" name="subject" id="subject" placeholder="Assunto">
+						</div>
+						<div>
+							<label for="message">Mensagem:</label>
+							<textarea required name="message" id="message" placeholder="Mensagem"></textarea>
+						</div>
+						<div>
+							<button type="submit">Enviar</button>
+						</div>
 					</form>
+					</div>
 				</div>
 			</section>
 		</main>
