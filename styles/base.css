@@ -200,10 +200,6 @@
     padding: 40px 120px;
 }
 
-.contacts_list {
-    margin: 20px;
-}
-
 form {
     display: flex;
     flex-direction: column;
@@ -211,26 +207,133 @@ form {
 
 label {
     margin-top: 15px;
+    margin-bottom: 5.5px;
     font-weight: bold;
-    font-size: 1.15em;
-    color: #5f5f5f;
+    font-size: 1em;
+    color: #4d4d4d;
 }
 
-input, select, textarea{
-    padding: 10px;
+input, select, textarea {
+    padding: 7.5px;
     margin-top: 6px;
     border-radius: 7.2px;
-    border: 1px solid #929292;
+    border: 1px solid #252525;
+    height: 0.8em;
 }
 
-input:hover, textarea:hover{
-    padding: 10px;
+/*input:hover, textarea:hover{
+    padding: 7.5px;
     margin-top: 6px;
     border-radius: 7.2px;
-    border: 1.45px solid #050505;
+    border: 1px solid #080808;
+    height: 0.8em;
+}*/
+
+#message {
+    height: 2em;
 }
 
 form div {
     display: flex;
     flex-direction: column;
+}
+
+.contacts_list {
+    font-family: 'montserrat', Arial, sans-serif;
+    width: 50%;
+    margin: 20px;
+}
+
+.contacts_list i {
+    margin: 0px 7px;
+    color: #414141;
+}
+
+.contacts_list li {
+    margin: 40px 0;
+    padding: 4.5px;
+    gap: 7.12px;
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #5f5f5f;
+    letter-spacing: 0.35px;
+}
+
+.contacts_list li:hover {
+    background-color: #eeeeee;
+    border-radius: 5px;
+    cursor: default;
+}
+
+.forms_area {
+    width: 40%;
+}
+
+.button button {
+    height: 35px;
+    border-radius: 7.2px;
+    background-color: #afbdeb;
+}
+
+.button button:hover {
+    cursor: pointer;
+    background-color: #96a8e2;
+}
+
+.timetable {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.horario {
+    margin-top: 20px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 18px 50px;
+    text-align: center;
+    vertical-align: middle;
+    border: 1.2px solid rgb(199, 199, 199);
+}
+
+th {
+    background-color: #96a8e2;
+    color: rgb(75, 75, 75);
+}
+
+td {
+    background-color: #f5f5f5;
+    color: #7e7e7e;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #d1d1d1;
+}
+
+.outter_modules_cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cards {
+    display: flex;
+    margin: 10%;
+    width: 100%;
+}
+
+.card_content {
+    width: 100%;
+    text-align: center;
+    background-color: #5f5f5f;
+    margin: 2px 15px;
+    width: 280px;
+    height: 310px;
 }
