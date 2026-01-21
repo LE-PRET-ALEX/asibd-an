@@ -1,0 +1,161 @@
+* {
+    font-family: 'montserrat', Arial, sans-serif;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 18px;
+    box-shadow: 1px 1px 11.5px #f988ff;
+}
+
+.menu ul{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.menu ul li{
+    list-style: none;
+    padding: 4px 9px;
+}
+
+.menu ul li a{
+    padding: 4px 9px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #bc4ed8;
+}
+
+.menu ul li a:hover {
+    color: #7f00b2;
+}
+
+.menu ul li a i:hover {
+    color: #7f00b2;
+}
+
+.link-holder {
+    position: relative;
+    color: #7f00b2;
+}
+
+.link-holder::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: #bc4ed8;
+    width: 100%;
+    height: 2px;
+    background-color: #7f00b2;
+    transform: scaleX(0);
+    transform-origin: center;
+    transition: transform 0.22s ease-out;
+}
+
+.link-holder:hover::after {
+    cursor: pointer;
+    transform: scaleX(1);
+}
+
+.presenting_section {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.presenting_section_paragraph {
+    width: 500px;
+    margin: 30px 30px 30px 0px;
+}
+
+.presenting_section_paragraph p {
+    text-align: justify;
+}
+
+.presenting_section_image {
+    width: 600px;
+    margin: 30px 0px 30px 120px;
+}
+
+.presenting_section_image img {
+    border-radius: 8.2px;
+}
+
+.teachers_area {
+    display: flex;
+    flex-direction: column;
+}
+
+.teachers_area a {
+    text-decoration: none;
+}
+
+.teacher {
+    display: flex;
+    flex-direction: row;
+}
+
+.teacher_card {
+    margin: 20px 20px 20px 250px;
+    padding: 5px;
+    height: 285px;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(240, 234, 234);
+    border: 0.25px solid #b826f146;
+    box-shadow: 3px 3px 10px #f0d1fc;
+    border-radius: 7.2px;
+}
+
+.teacher_card_name {
+    text-align: center;
+    width: auto;
+    height: auto;
+    position: relative;
+    top: -30px;
+}
+
+.teacher_card_name h5 {
+    font-size: 20px;
+}
+
+.teacher_img img {
+    border-radius: 7.2px;
+}
+
+.teacher_contact {
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+    position: relative;
+    top: -50px;
+    left: 30px;
+}
+
+.teacher_contact i {
+    margin: 0 10px;
+    color: black;
+}
+
+.teacher_description {
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    height: 285px;
+    justify-content: center;
+    position: relative;
+    top: 20px;
+}
+
+.teacher_description ul {
+    display: flex;
+    flex-direction: column;
+    gap: 24.75px;
+}
+
+.teacher_description li {
+    font-size: 17.75px;
+}
