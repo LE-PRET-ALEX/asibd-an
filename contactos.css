@@ -1,0 +1,100 @@
+* {
+    font-family: 'montserrat', Arial, sans-serif;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    background-image: url("../resources/images/img_header_contacts.jpeg");
+    background-size: cover;
+    background-position: 0 -52px;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 20px 0px;
+    position: relative;
+}
+
+header::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 1;
+}
+
+header h1 {
+    font-size: 8rem;
+    margin-bottom: 10px;
+    font-weight: 700;
+    color: beige;
+    justify-content: center;
+    z-index: 3;
+}
+
+.contacts_section {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+}
+
+.school_info {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+}
+
+.form_area {
+    width: 50%;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 15px;
+    margin-bottom: 5.5px;
+    font-weight: bold;
+    font-size: 1em;
+    color: #4d4d4d;
+}
+
+input, select, textarea {
+    padding: 7.5px;
+    margin-top: 6px;
+    border-radius: 7.2px;
+    border: 1px solid #252525;
+    height: 0.8em;
+}
+
+input, textarea {
+    width: 400px;
+}
+
+textarea {
+    height: 100px;
+}
+
+form div {
+    display: flex;
+    flex-direction: column;
+}
+
+.button {
+    width: 400px;
+    margin-top: 6px;
+}
+
+.button button {
+    width: 400px;
+    margin-top: 6px;
+    background-color: #96a8e2;
+    border-radius: 7.2px;
+}

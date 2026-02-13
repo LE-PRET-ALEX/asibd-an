@@ -3,9 +3,53 @@
   <head>
     <meta charset="UTF-8">
     <title>Contactos do curso</title>
+    <link rel="stylesheet" type="text/css" href="contactos.css">
+    <link rel="stylesheet" type="text/css" href="styles/reset.css">
   </head>
 
   <body>
-    <h1>Pagina dos Contactos</h1>
+    <header>
+      <h1>Contactos</h1>
+    </header>
+    <section class="contacts_section">
+      <div class="school_info">
+        <h2>Informacoes</h2>
+        <div class="school_localization">
+          <ul>
+            <li>Mindelo</li>
+            <li>Laginha</li>
+            <li>Avenida Dr Alberto Leite 5</li>
+          </ul>
+        </div>
+        <div class="school_contact">
+          <h4>Numero de telefone</h4>
+          <p>232 13 13</p>
+        </div>
+      </div>
+
+      <div class="form_area">
+				<form class="form" action="contacts.php">
+					<div>
+						<label for="name">Nome:</label>
+						<input required type="text" name="name" id="name" placeholder="Nome">
+					</div>
+					<div>
+						<label for="email">Email:</label>
+						<input required type="email" name="email" id="email" placeholder="Email">
+					</div>
+					<div>
+						<label for="subject">Assunto:</label>
+						<input type="text" name="subject" id="subject" placeholder="Assunto">
+					</div>
+					<div>
+						<label for="message">Mensagem:</label>
+						<textarea required name="message" id="message" placeholder="Mensagem"></textarea>
+					</div>
+					<div class="button">
+						<button type="submit">Enviar</button>
+					</div>
+				</form>
+			</div>
+    </section>
   </body>
 </html>

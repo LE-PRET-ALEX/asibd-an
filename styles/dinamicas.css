@@ -1,0 +1,143 @@
+* {
+    font-family: 'montserrat', Arial, sans-serif;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 18px;
+    box-shadow: 1px 1px 11.5px #f988ff;
+}
+
+.menu ul{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.menu ul li{
+    list-style: none;
+    padding: 4px 9px;
+}
+
+.menu ul li a{
+    padding: 4px 9px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #bc4ed8;
+}
+
+.menu ul li a:hover {
+    color: #7f00b2;
+}
+
+.menu ul li a i:hover {
+    color: #7f00b2;
+}
+
+.link-holder {
+    position: relative;
+    color: #7f00b2;
+}
+
+.link-holder::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: #bc4ed8;
+    width: 100%;
+    height: 2px;
+    background-color: #7f00b2;
+    transform: scaleX(0);
+    transform-origin: center;
+    transition: transform 0.22s ease-out;
+}
+
+.link-holder:hover::after {
+    cursor: pointer;
+    transform: scaleX(1);
+}
+
+.banner {
+    display: flex;
+    flex-direction: row;
+    margin: 20px 60px;
+    justify-content: center;
+}
+
+.mini_description {
+    height: 70px;
+    width: 800px;
+    text-align: justify;
+}
+
+.mini_description p {
+    margin-left: 50px;
+    text-align: justify;
+}
+
+.mini_description_image img, h1 {
+    width: 450px;
+    margin-right: 60px;
+    margin-left: 35px;
+}
+
+.cards_area {
+    margin-top: 64.5px;
+}
+
+.cards_area h2 {
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    margin: 20px 45px;
+    justify-content: center;
+}
+
+.card {
+    width: 300px;
+    height: 270px;
+    border-radius: 7.2px;
+    margin: 7.2px;
+    background-color: #dadada;
+}
+
+.card_title {
+    height: 20%;
+}
+
+.card_title h4 {
+    text-align: center;
+}
+
+.card_image {
+    height: 30%;
+}
+
+.card_text {
+    height: 42%;
+    padding: 0px 7.8px 7.8px 7.8px;
+}
+
+.card_text p {
+    text-align: justify;
+}
+
+.card_info {
+    height: 8%;
+}
+
+.card_info {
+    display: flex;
+    justify-content: right;
+}
+
+
+
+.card_image img {
+    width: fit-content;
+}

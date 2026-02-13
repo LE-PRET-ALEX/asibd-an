@@ -99,7 +99,7 @@
 
 .teacher_card {
     margin: 20px 20px 20px 250px;
-    padding: 5px;
+    padding: 10px 15px;
     height: 285px;
     width: auto;
     display: flex;
@@ -115,7 +115,7 @@
     width: auto;
     height: auto;
     position: relative;
-    top: -30px;
+    top: -24px;
 }
 
 .teacher_card_name h5 {
@@ -153,7 +153,7 @@
 .teacher_description ul {
     display: flex;
     flex-direction: column;
-    gap: 24.75px;
+    gap: 16.95px;
 }
 
 .teacher_description li {
